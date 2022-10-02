@@ -1,3 +1,8 @@
+aws codestar-connections create-connection --provider-type GitHub --connection-name MyConnection
+{
+    "ConnectionArn": "arn:aws:codestar-connections:eu-central-1:928141648496:connection/725f1232-fe7f-4570-8c92-f7b359c736dc"
+}
+
 # Welcome to your CDK TypeScript project
 
 This is a blank project for CDK development with TypeScript.
