@@ -27,8 +27,8 @@ export class MyPipelineStack extends cdk.Stack {
             pipelineName: "MyCDKPipeline",
             synth: new CodeBuildStep('SynthStep', {
                 input: CodePipelineSource.gitHub(gitHubUsernameRepository, branch, {
-                    // authentication: cdk.SecretValue.secretsManager('github-access-token-secret'),
-                    authentication: muh,
+                       authentication: cdk.SecretValue.secretsManager('github-access-token-secret'),
+//                    authentication: muh,
                 }),
                 installCommands: [
                     'npm install -g aws-cdk'
