@@ -10,7 +10,7 @@ new MyPipelineStack(app, 'MyPipelineStack', {
     region: 'eu-central-1',
   }
 });
-console.log("After Stack")
+console.log("After Stack2 ")
 
 app.synth();
 
