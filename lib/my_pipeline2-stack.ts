@@ -7,7 +7,7 @@ export class MyPipelineStack extends cdk.Stack {
     super(scope, id, props);
 
     
-    const muh = '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'
+    const muh = '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';
 
     console.log("Befor Create muuh")
 /*    const pipeline = new CodePipeline(this, 'Pipeline', {
